@@ -160,56 +160,44 @@ systems on the web
 # Chapter 6 MOBILE APP LIFE CYCLE AND STATE MANAGEMENT
 
 ## 6.1 Mobile App Life Cycle
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/5250595e-cd52-4bab-a6a2-8f5bfbf993c3)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/edc939f9-52f1-4905-99b3-f36849a4d302)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/31473d05-49ac-4727-b7e8-e2175076b827)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/a174b2a8-d14f-4675-bba6-a1d07f2cc4e9)
 
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/20d61103-a77a-43d1-8aa7-9cd269d439d8)
-
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/3f65a82d-7cb9-462e-9a3f-4f9b0b9266c5)
 
 ## 6.2 Android & iOS App Life Cycle
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/cc330350-7cd9-4a99-ad8f-fe4143cdc553)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/e1efe358-2dec-4395-a97e-96323e21b0d7)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/7359094b-9dea-4fda-9694-8cd5283cff4f)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/8031961e-f792-47de-987d-57547ff4388c)
 
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/fc713c21-53a3-4eb4-8acd-0d613d32751f)
-
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/79515519-6051-4dd4-a538-61a2d2c2df1a)
-
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/b8b277d7-560f-434b-9e40-45f3751b3fdd)
-
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/2129c5af-99bb-4ac9-98f5-a4447ea8ed6b)
 
 ## 6.3 Mobile App State Management 
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/8ef28547-c249-41fa-afc1-be24b0369a24)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/6d595db1-24c7-4814-9db9-f440de5ae6f9)
 
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/48daaabc-cb7b-4b10-a700-172f86c1676f)
 
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/3c57cdfa-416c-4c5b-ae3b-ef8955e48c3f)
 
 ## 6.4 Redux Overview
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/f61b4261-eea8-4c81-b58b-ba2d74f623f2)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/add76f6a-aa03-4147-b50a-b9f9d4a889f1)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/c0c3b933-a7ac-45b4-a4ca-188966e58474)
 
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/36fca3d3-895b-4ac5-846c-16f996303c95)
 
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/dcf4364c-6450-4903-b82a-3a91a56df5e5)
+
 
 # Chapter 7 MOBILE DEVICE SENSORS
 
 ## 7.1 Introduction to Mobile Device sensors
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/5e7c311d-7fee-48c8-9e3b-6d0ae9222362)
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/32e1e700-9f41-4efe-bade-ad3cc3add613)
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/fac7ed29-6d3a-4156-b68d-214dea0c9c7f)
+
+
 
 ## 7.2 Mobile Device sensors characteristics
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/70b076e7-f7da-4c97-8880-70d1c737aff7)
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/f39f8e41-0a51-4eac-8860-5704764d4d10)
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/d3ecfb21-9937-4cc2-a005-7f78564cd4a8)
+
 
 ## 7.3 Common Mobile Device sensors
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/fd3245b9-bb05-4fb2-a08f-597c62b56b74)
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/e119370c-14f3-4c0a-b58b-29a8d0fde9d9)
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/77b27327-d139-4a95-8cea-85083620649d)
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/9f7e89c8-3c61-44a0-8373-5c90658553b9)
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/5583a512-a1dd-4be8-9e28-a22151b95224)
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/15097d54-4502-4c74-8d61-cae0e8189bc5)
+
 
 ## 7.4 Develop Mobile App with device sensors
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/a7fc4e9b-badc-45dd-b9de-eaf91881828d)
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/c482ce1a-8b83-4759-af31-8b5bb9096016)
 
 
