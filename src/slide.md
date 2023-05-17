@@ -123,11 +123,13 @@ Model - View - Controller pattern: (MVC) design pattern was introduced by Trygve
   grammar
   - Is discoverable via a simple find mechanism
 ### WEB SERVICE COMPONENTS
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/e7c66d05-8a32-4f0d-87fa-34fbbe8442c4)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/0140c397-ce81-4be7-9c02-4701c5035b50)
 >> Example
 
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/daf1214f-cff6-470b-a951-7746be074277)
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/acf81b0b-d27e-48a1-9132-d11b7ddd44bf)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/5705ec59-da5f-4e26-8f45-71104d1e7701)
+
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/458d4af7-fcf9-450f-b073-6c5c774659c7)
+
 
 
 ## 5.2 Introduction to REST
@@ -135,30 +137,24 @@ Model - View - Controller pattern: (MVC) design pattern was introduced by Trygve
 REST stands for REpresentational State Transfer
 REST is an architectural style for providing standards between computer
 systems on the web
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/eb7047b0-7be5-4e9f-89a7-127ee2e5727f)
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/a3a5ebbd-8bb8-49d1-91cf-f6f26389658c)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/cc0af32b-0aa2-4c98-8f29-0d3e76f225dd)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/bda4217d-b376-4a9e-b6bd-27ba75fe1139)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/f903cc8e-73fb-42f1-bb6e-356e2ba1db7f)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/3e46237d-20cd-40a5-b8de-9c5e85878eb6)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/bbcecb95-9ff6-4c1f-8f89-6474f79db293)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/27badde9-8433-423e-b672-c54760d7c45f)
 
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/806bec4c-e31c-4ddb-804a-fe3727a0c20b)
-
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/b838c37b-269e-4b15-b4c2-ac3ef3e22820)
-
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/ac3cae87-9698-42e3-ab92-c708e4150da1)
 
 
 ## 5.3 Design a REST API
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/4b68c568-1a20-4e51-9092-e71ff2fd6812)
-
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/5e0e44d5-367b-4ec9-921a-a441895acd61)
-
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/e8a148f2-0a04-4c8a-a962-a3ca0d57e495)
-
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/ac92c04b-1c26-4188-987e-45c640e909e7)
-
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/da5a18c9-18e3-4caf-bd7b-c11be8b86349)
-
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/52bbbc1a-ace5-4b11-8123-852d931a1d67)
-
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/1489d15a-acbd-4491-b47f-f39b748647fb)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/088477c7-dbe0-41d5-9705-802b582ae145)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/867fcd3d-84a1-48f6-a33e-bd80e2ef8953)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/f64ab82e-ac05-4e69-b05c-d6e95083ba84)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/62da09e8-b72c-4c42-8ce1-f6b4ae2f75a7)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/321a0f39-aa45-413e-b32d-fc3b30fde56a)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/020a5f4a-6ad3-4f08-86fe-a7646b9ae698)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/0132f296-d632-4377-b6f2-8f223b0caa5e)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/937b0348-1e0d-4229-a71b-faa2d5ccb7de)
 
 
 # Chapter 6 MOBILE APP LIFE CYCLE AND STATE MANAGEMENT
