@@ -62,10 +62,26 @@
 
 ## Quiz 9
 
+![image](https://github.com/MobDevBKU/Exam/assets/69946748/e1d6276d-3b2c-4582-825b-a607ccb3aa68)
+![image](https://github.com/MobDevBKU/Exam/assets/69946748/5348c58d-0c13-4c7d-88e1-5c73919867d9)
+![image](https://github.com/MobDevBKU/Exam/assets/69946748/fa24f1cc-840e-4e10-950b-737e824f52be)
+![image](https://github.com/MobDevBKU/Exam/assets/69946748/11f74e24-3aae-430d-aade-c171f1326d70)
+![image](https://github.com/MobDevBKU/Exam/assets/69946748/75a3273d-70b1-4f5b-86bf-776e435cfd11)
+
 
 ## Quiz 10
-
+![image](https://github.com/MobDevBKU/Exam/assets/69946748/b732615d-55dc-43d2-8aaa-16b7ca08ffed)
+![image](https://github.com/MobDevBKU/Exam/assets/69946748/3d1b1364-b27e-4dd7-a6ea-8966a2967c13)
+![image](https://github.com/MobDevBKU/Exam/assets/69946748/e0649876-e9c2-43eb-a638-b0f5f3c07066)
+![image](https://github.com/MobDevBKU/Exam/assets/69946748/88ca68c6-fa1e-46e4-8f84-210c88315614)
+![image](https://github.com/MobDevBKU/Exam/assets/69946748/3885bf3e-59c6-4248-be12-906179925ae8)
 
 ## Quiz 10 (Cont)
+![image](https://github.com/MobDevBKU/Exam/assets/69946748/0cf1cad9-e0eb-4a1b-b525-c9085482e582)
+![image](https://github.com/MobDevBKU/Exam/assets/69946748/50f63533-0cd0-4651-becf-984c8a50cd67)
+![image](https://github.com/MobDevBKU/Exam/assets/69946748/a55d4438-e557-4a73-b526-e24e0560f073)
+![image](https://github.com/MobDevBKU/Exam/assets/69946748/e4d86709-b60b-4e32-b8c6-c168e3f4c6b5)
+![image](https://github.com/MobDevBKU/Exam/assets/69946748/4704e2bb-6411-4246-8736-63fad6a16a71)
+
 
 
