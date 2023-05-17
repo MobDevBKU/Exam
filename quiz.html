@@ -1,0 +1,234 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Quiz - HPC Monitoring Documentation</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="slide.html"><strong aria-hidden="true">1.</strong> Slide</a></li><li class="chapter-item expanded "><a href="exam.html"><strong aria-hidden="true">2.</strong> Exam</a></li><li class="chapter-item expanded "><a href="quiz.html" class="active"><strong aria-hidden="true">3.</strong> Quiz</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">HPC Monitoring Documentation</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="quiz"><a class="header" href="#quiz">Quiz</a></h1>
+<h2 id="quiz-1"><a class="header" href="#quiz-1">Quiz 1</a></h2>
+<p><img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/539fddb6-a630-4aef-9bf3-3b32c6684eeb" alt="image" /></p>
+<p><img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/143faba1-8871-416c-bf2f-91cf4e5be74a" alt="image" /></p>
+<h2 id="quiz-2"><a class="header" href="#quiz-2">Quiz 2</a></h2>
+<p><img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/d10382ce-02b2-4c70-aafa-1a607867c4a6" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/35f8dd97-a5ef-4434-a87b-40376ec8bc3e" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/c9c2c7c7-26bb-4d11-a965-14a2ccba0457" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/d41caf45-22e4-4364-bcaf-ef89a55d998c" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/a62b74ce-3a8a-4bbe-8dd0-d299dea1a063" alt="image" /></p>
+<h2 id="quiz-3"><a class="header" href="#quiz-3">Quiz 3</a></h2>
+<p><img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/1a61b7ab-20fb-4f99-bddb-b6b6b96de9bd" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/f4b365ed-c02d-4fbd-83b8-c23021c8eb8d" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/0027ba57-df3f-4f1f-8eba-5e4f9ce5ecc0" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/7403a3dc-0d00-4558-b18b-31f6fce1ca6e" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/31eb8f5c-2aa0-4d15-bffd-57520a60ea8b" alt="image" /></p>
+<h2 id="quiz-4"><a class="header" href="#quiz-4">Quiz 4</a></h2>
+<p><img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/e1ab78f9-7d2b-445b-8917-d91d3e91fad7" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/e57a04da-a5b1-4e02-90f2-af1b5b10edd8" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/8395b4ce-9117-4376-9c62-aaa4bef1ba58" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/d0111652-db36-47f7-98f1-94608b3c4c69" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/46cc7732-449a-4a30-8ba9-908569810f84" alt="image" /></p>
+<h2 id="quiz-5"><a class="header" href="#quiz-5">Quiz 5</a></h2>
+<p><img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/27ff05a0-843f-43ce-9573-865b801603f7" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/de82b259-2e83-4abf-b842-397b7ee5ee70" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/19406df9-9178-4b20-880c-caed03e43e63" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/619a9148-fe3a-4c3f-a822-3ac308aa7a37" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/6ca8bb40-8cc0-4e8d-9dc1-ce214a304073" alt="image" /></p>
+<h2 id="quiz-6"><a class="header" href="#quiz-6">Quiz 6</a></h2>
+<p><img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/30ea5dd0-24cb-47d4-b06f-f270403e0982" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/51719a2f-3cb1-4b6c-976c-e1838edc43db" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/e81dd148-ba08-4adc-a1aa-b17e1c2c3c30" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/fac752b8-5c76-4fdd-be34-6cdaf261ccd9" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/25061b09-a2bf-4263-8465-d3be73afb047" alt="image" /></p>
+<h2 id="quiz-7"><a class="header" href="#quiz-7">Quiz 7</a></h2>
+<p><img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/a42e5161-c208-4533-b953-2caf3f86c88c" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/7c979b41-6040-4818-b924-fe95a27c1c05" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/59f068fd-fcd9-456c-9daa-d437a9f9de14" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/6270e092-585a-48c9-bf45-72ad89a77c15" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69207570/72530d09-91d4-4ab3-936d-8a722038a7c1" alt="image" /></p>
+<h2 id="quiz-8"><a class="header" href="#quiz-8">Quiz 8</a></h2>
+<p><img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/12d3c8e8-27e0-4444-8d0d-8b43e8e55009" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/c8812133-8d54-45b1-be19-4fc2b9946c6a" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/c249f5a1-1689-45e0-8109-ac143aa83956" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/fad0f62a-d396-423c-bbea-e840094f6547" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/5606eee3-51c7-44eb-abd3-f459a11bf5bb" alt="image" /></p>
+<h2 id="quiz-9"><a class="header" href="#quiz-9">Quiz 9</a></h2>
+<p><img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/c56b9045-461b-4a70-8290-f62161f7cbf8" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/bba7656e-bcb6-4c79-b1d8-1dce5fb1c726" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/fec09d13-38dc-4991-924c-b741306461ed" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/e9f2821f-9725-4a8a-9282-eb884f49d012" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/ea9228aa-f364-4dd5-bc63-58fca63569ca" alt="image" /></p>
+<h2 id="quiz-10"><a class="header" href="#quiz-10">Quiz 10</a></h2>
+<p><img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/71f752ea-7c44-442d-9304-70e668554b71" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/96bcd0d1-88d9-4b60-9bee-59d988a5fcb4" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/fb655f32-cb18-4de4-9f3d-f2a0a32cf9f2" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/96c3d6c7-a911-4f23-b15a-a672e29c297c" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/010c3788-260c-423b-a7e0-553530c9242c" alt="image" /></p>
+<h2 id="quiz-10-cont"><a class="header" href="#quiz-10-cont">Quiz 10 (Cont)</a></h2>
+<p><img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/23451515-95fa-4f9c-9b56-1bffb2313fab" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/fc897629-7d1f-4cf3-8eb5-d31cf1b40686" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/3cb2118f-b7d4-4a79-983e-385dc7dbe459" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/582c0d44-8ac3-4172-9cc1-c6a5fbc139e4" alt="image" />
+<img src="https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/5887a676-36fd-439d-8ec8-cc90df14cbfd" alt="image" /></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="exam.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="exam.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>
