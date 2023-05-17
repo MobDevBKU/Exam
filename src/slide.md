@@ -4,7 +4,7 @@
 
 ### Quality Evaluation
 
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/756592dc-49e6-4ce8-9393-2609551b005f)
+![Screenshot from 2023-05-17 11-08-54](https://github.com/MobDevBKU/Exam/assets/69946748/88fdba97-d477-4ec0-8ba3-7886201b5b2c)
 
 ### Design process
 
