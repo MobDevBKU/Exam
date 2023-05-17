@@ -189,15 +189,29 @@ systems on the web
 # Chapter 7 MOBILE DEVICE SENSORS
 
 ## 7.1 Introduction to Mobile Device sensors
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/92805286-e79f-45c1-be19-1b4fa627970f)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/903692e1-7f77-47bc-a487-a109bb210132)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/f85b3eb9-43a2-47d6-b840-d54b3cb8f837)
 
 
 
 ## 7.2 Mobile Device sensors characteristics
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/265fd3e2-2d11-4941-8839-e75a50ab6c2b)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/8ffcc225-64e4-498d-aa51-05a23d22fd6e)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/b6b44859-9315-4140-86b0-35db2dfde57a)
 
 
 ## 7.3 Common Mobile Device sensors
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/51929210-5731-4a04-aac7-5a993938e504)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/c6a380c9-520a-4191-a3db-ca61f3a3b9fc)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/c8a6a4b3-b24e-4644-bf57-683ea1581863)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/f8e9a9a1-e41b-46d4-9a13-791796a08fad)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/9455beb1-44da-4e82-bd79-cead81c18764)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/6942efe9-7877-4631-9510-45667000d581)
 
 
 ## 7.4 Develop Mobile App with device sensors
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/00d72128-3288-49a7-8408-3a8e58ae3044)
+![image](https://github.com/MobDevBKU/Exam/assets/69207570/c98db632-a374-451e-bb8f-80f081862aac)
 
 
