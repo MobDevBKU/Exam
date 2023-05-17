@@ -4,14 +4,15 @@
 
 ### Quality Evaluation
 
+Security: Your app should handle user data and personal information safely, with the appropriate level of permission.
 ![Screenshot from 2023-05-17 11-08-54](https://github.com/MobDevBKU/Exam/assets/69946748/88fdba97-d477-4ec0-8ba3-7886201b5b2c)
 
 ### Design process
 
 User experience design process:
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/fd500006-baab-46d0-b843-23db946b9ef5)
+![Screenshot from 2023-05-17 11-09-22](https://github.com/MobDevBKU/Exam/assets/69946748/63a486fe-6ffe-4aee-85fc-403f627b530c)
 
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/51da91a8-57e5-4419-9642-b175e5626181)
+![Screenshot from 2023-05-17 11-10-08](https://github.com/MobDevBKU/Exam/assets/69946748/11aebc54-874b-48c1-9743-ec939f1d61a9)
 
 ### Idea Initiation
 
@@ -35,11 +36,10 @@ Market research:
 3. Analyze your competitors
 4. Apply results to your product
 
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/d48e7697-3774-475e-a19d-78b718f749e4)
+![Screenshot from 2023-05-17 11-16-41](https://github.com/MobDevBKU/Exam/assets/69946748/63d2f901-1c51-4ea7-93fb-96540c56106a)
 
 ### App planing
-
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/8371a18e-ce44-4958-bd69-78ea0231750a)
+![Screenshot from 2023-05-17 11-17-32](https://github.com/MobDevBKU/Exam/assets/69946748/f6baca19-2aa4-4fae-a30d-72454c5e21d4)
 
 - Define MVP
 - User stories
@@ -48,7 +48,7 @@ Market research:
 
 ### Wireframe, Mockup & Prototype
 
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/b706d568-19e6-4357-b4d1-cc2328c747cf)
+![Screenshot from 2023-05-17 11-19-55](https://github.com/MobDevBKU/Exam/assets/69946748/08899c7d-d792-41fb-a30d-61e1063b25d5)
 
 ## CHAPTER 3: Guide to Mobile App Design
 
@@ -73,13 +73,12 @@ and content that are related to each other
 
 ### Mobile App Architecture Review
 
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/5220fbd3-dca7-4b0f-8c4a-8fbfff9727cf)
+![Screenshot from 2023-05-17 11-30-35](https://github.com/MobDevBKU/Exam/assets/69946748/c8baa68f-8c18-4fbb-87de-76cd3dbf8bcf)
 
 ### Separation of Concerns
+![Screenshot from 2023-05-17 11-32-26](https://github.com/MobDevBKU/Exam/assets/69946748/18918dfc-f1a9-4dc5-b741-442127c1a945)
 
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/3794c67c-09a1-4f05-ad69-e3191234dc97)
-
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/ecb1c2af-282c-4b95-8619-f05041b365fd)
+![Screenshot from 2023-05-17 11-31-32](https://github.com/MobDevBKU/Exam/assets/69946748/96120f97-aa18-4829-9d04-2724c24f3c68)
 
 ### MVP, MVC, MVVM
 
@@ -88,32 +87,28 @@ Model - View - Controller pattern: (MVC) design pattern was introduced by Trygve
 - The **view** renders a presentation of the model in a particular format.
 - The **controller** responds to the user input and performs interactions on the data model objects. The controller receives the input, optionally validates it, and then passes the input to the model.
 
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/99e1ce2c-1d7e-46e5-ae17-dc2cff83acd7)
-
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/9372727d-73e5-436b-b1d2-fa36dd6fa794)
+![Screenshot from 2023-05-17 11-34-47](https://github.com/MobDevBKU/Exam/assets/69946748/0778e72d-40a1-4f64-becf-df6885574981)
+![Screenshot from 2023-05-17 11-36-07](https://github.com/MobDevBKU/Exam/assets/69946748/c5dc239a-be5b-4a5e-bae0-ad3265948526)
 
 ### VIPER on iOS
 
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/f758b3ec-5b96-4edb-8e71-37359f706b78)
+![Screenshot from 2023-05-17 11-36-30](https://github.com/MobDevBKU/Exam/assets/69946748/18f3cf6f-38ca-479e-9ddd-458bba2862cc)
 
 ### Android App Architecture
 
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/48e84a48-b0d5-4b9d-9208-9a1a7b4cbd86)
+![Screenshot from 2023-05-17 11-36-59](https://github.com/MobDevBKU/Exam/assets/69946748/0a9e7f4d-ad76-4ade-aacc-4c4c4c46d2c3)
 
 ### MVI and React Redux
 
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/79b72415-1202-4986-b81b-b28ec9528c6b)
+![Screenshot from 2023-05-17 11-37-47](https://github.com/MobDevBKU/Exam/assets/69946748/a1c7a101-e78e-4f5d-a57d-6eb355648ecf)
 
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/fb5f66f7-81c1-4ce2-8bc3-a90a1a393e45)
+![Screenshot from 2023-05-17 11-38-36](https://github.com/MobDevBKU/Exam/assets/69946748/617911df-d8f3-4420-b075-122945623da7)
 
 ### Mobile App Architecture - The Big Picture
 
-![image](https://github.com/MobDevBKU/TaiLieuOnThi/assets/69946748/7a07e0d5-384e-4559-ab26-8504c8392d84)
-
-
+![Screenshot from 2023-05-17 11-39-21](https://github.com/MobDevBKU/Exam/assets/69946748/c9559c3a-5283-432a-832d-2af7c54cf4e0)
 
 # TaiLieuOnThi
-
 
 # Chapter 5 Web services
 
